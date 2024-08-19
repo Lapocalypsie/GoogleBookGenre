@@ -28,22 +28,27 @@ def fetch_category(isbn):
         logging.error(f"Error fetching category for ISBN {isbn}: {e}")
         return None
 
-def process_csv(input_file, output_file, start_row):
+def process_csv(input_file, output_file, start_row, end_row):
     """Process the CSV file, fetch categories for each ISBN, and save to output file."""
-    logging.info(f"Starting CSV processing. Input: {input_file}, Output: {output_file}, Start Row: {start_row}")
+    logging.info(f"Starting CSV processing. Input: {input_file}, Output: {output_file}, Start Row: {start_row}, End Row: {end_row}")
     
     try:
         with open(input_file, "r", encoding="utf-8") as file:
             reader = csv.reader(file)
             rows = list(reader)
             
+            # Check if the end_row is beyond the length of rows
+            if end_row > len(rows):
+                end_row = len(rows)
+                logging.warning(f"End row adjusted to the end of the file: {end_row}")
+
             with open(output_file, "w", newline="", encoding="utf-8") as outfile:
                 writer = csv.writer(outfile)
                 
                 counter = 0  # Counter to keep track of rows processed
                 
                 for i, row in enumerate(rows):
-                    if i < start_row:
+                    if i < start_row or i >= end_row:
                         writer.writerow(row)
                         continue
                     
@@ -88,8 +93,9 @@ input_file_path = filedialog.askopenfilename(filetypes=[("CSV Files", "*.csv")])
 # Create new CSV file named "genre.csv"
 output_file_path = "genre.csv"
 
-# Ask for starting row
+# Ask for starting and ending rows
 start_row = int(input("Enter the row number to start from: "))
+end_row = int(input("Enter the row number to end at: "))
 
 # Process the CSV file
-process_csv(input_file_path, output_file_path, start_row)
+process_csv(input_file_path, output_file_path, start_row, end_row)
