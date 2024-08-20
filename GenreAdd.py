@@ -63,7 +63,10 @@ def process_csv(input_file, output_file, start_row, end_row):
                             row.append(category)
                             writer.writerow(row)
                             counter += 1
-                            logging.info(f"Processed row {i + 1}: ISBN {isbn}, Category {category}")
+                            # Save data every 100 rows
+                            if counter % 100 == 0:
+                                logging.info(f"Processed row {i + 1}: ISBN {isbn}, Category {category}")
+                                outfile.flush()  # Flush the buffer to save the data
                             
                             # Save data every 100 rows
                             if counter % 100 == 0:
