@@ -1,0 +1,61 @@
+2024-08-23 19:37:40,955 - INFO - Starting CSV processing. Input: C:/Users/jraso/Desktop/Project/Recom_book/BooksFiltered.csv, Output: genre.csv, Start Row: 226924, End Row: 227040
+2024-08-23 19:38:00,250 - ERROR - Error fetching category for ISBN 015600559X: 503 Server Error: Service Unavailable for url: https://www.googleapis.com/books/v1/volumes?q=isbn:015600559X
+2024-08-23 19:38:00,252 - WARNING - Retry 1 for ISBN 015600559X
+2024-08-23 19:38:04,310 - ERROR - Error fetching category for ISBN 067155140X: 503 Server Error: Service Unavailable for url: https://www.googleapis.com/books/v1/volumes?q=isbn:067155140X
+2024-08-23 19:38:04,313 - WARNING - Retry 1 for ISBN 067155140X
+2024-08-23 19:38:07,034 - ERROR - Error fetching category for ISBN 3257228317: 503 Server Error: Service Unavailable for url: https://www.googleapis.com/books/v1/volumes?q=isbn:3257228317
+2024-08-23 19:38:07,035 - WARNING - Retry 1 for ISBN 3257228317
+2024-08-23 19:38:08,815 - ERROR - Error fetching category for ISBN 3257228317: 503 Server Error: Service Unavailable for url: https://www.googleapis.com/books/v1/volumes?q=isbn:3257228317
+2024-08-23 19:38:08,817 - WARNING - Retry 2 for ISBN 3257228317
+2024-08-23 19:38:10,642 - ERROR - Error fetching category for ISBN 3257228317: 503 Server Error: Service Unavailable for url: https://www.googleapis.com/books/v1/volumes?q=isbn:3257228317
+2024-08-23 19:38:10,644 - WARNING - Retry 3 for ISBN 3257228317
+2024-08-23 19:38:11,645 - ERROR - Failed to fetch category for ISBN 3257228317 after 3 attempts.
+2024-08-23 19:38:12,442 - ERROR - Error fetching category for ISBN 0894864556: 503 Server Error: Service Unavailable for url: https://www.googleapis.com/books/v1/volumes?q=isbn:0894864556
+2024-08-23 19:38:12,444 - WARNING - Retry 1 for ISBN 0894864556
+2024-08-23 19:38:18,059 - ERROR - Error fetching category for ISBN 342324318X: 503 Server Error: Service Unavailable for url: https://www.googleapis.com/books/v1/volumes?q=isbn:342324318X
+2024-08-23 19:38:18,060 - WARNING - Retry 1 for ISBN 342324318X
+2024-08-23 19:38:28,039 - ERROR - Error fetching category for ISBN 3423116668: 503 Server Error: Service Unavailable for url: https://www.googleapis.com/books/v1/volumes?q=isbn:3423116668
+2024-08-23 19:38:28,041 - WARNING - Retry 1 for ISBN 3423116668
+2024-08-23 19:38:36,998 - ERROR - Error fetching category for ISBN 0821730703: 503 Server Error: Service Unavailable for url: https://www.googleapis.com/books/v1/volumes?q=isbn:0821730703
+2024-08-23 19:38:36,999 - WARNING - Retry 1 for ISBN 0821730703
+2024-08-23 19:38:39,795 - ERROR - Error fetching category for ISBN 3423093552: 503 Server Error: Service Unavailable for url: https://www.googleapis.com/books/v1/volumes?q=isbn:3423093552
+2024-08-23 19:38:39,796 - WARNING - Retry 1 for ISBN 3423093552
+2024-08-23 19:38:49,829 - ERROR - Error fetching category for ISBN 3813501035: 503 Server Error: Service Unavailable for url: https://www.googleapis.com/books/v1/volumes?q=isbn:3813501035
+2024-08-23 19:38:49,830 - WARNING - Retry 1 for ISBN 3813501035
+2024-08-23 19:39:00,032 - ERROR - Error fetching category for ISBN 3423129034: 503 Server Error: Service Unavailable for url: https://www.googleapis.com/books/v1/volumes?q=isbn:3423129034
+2024-08-23 19:39:00,034 - WARNING - Retry 1 for ISBN 3423129034
+2024-08-23 19:39:09,038 - ERROR - Error fetching category for ISBN 3423128062: 503 Server Error: Service Unavailable for url: https://www.googleapis.com/books/v1/volumes?q=isbn:3423128062
+2024-08-23 19:39:09,040 - WARNING - Retry 1 for ISBN 3423128062
+2024-08-23 19:39:11,953 - ERROR - Error fetching category for ISBN 0373074484: 503 Server Error: Service Unavailable for url: https://www.googleapis.com/books/v1/volumes?q=isbn:0373074484
+2024-08-23 19:39:11,954 - WARNING - Retry 1 for ISBN 0373074484
+2024-08-23 19:39:23,237 - ERROR - Error fetching category for ISBN 3423100834: 503 Server Error: Service Unavailable for url: https://www.googleapis.com/books/v1/volumes?q=isbn:3423100834
+2024-08-23 19:39:23,238 - WARNING - Retry 1 for ISBN 3423100834
+2024-08-23 19:39:33,016 - ERROR - Error fetching category for ISBN 0064300773: 503 Server Error: Service Unavailable for url: https://www.googleapis.com/books/v1/volumes?q=isbn:0064300773
+2024-08-23 19:39:33,018 - WARNING - Retry 1 for ISBN 0064300773
+2024-08-23 19:39:46,618 - ERROR - Error fetching category for ISBN 3423130725: 503 Server Error: Service Unavailable for url: https://www.googleapis.com/books/v1/volumes?q=isbn:3423130725
+2024-08-23 19:39:46,619 - WARNING - Retry 1 for ISBN 3423130725
+2024-08-23 19:39:54,436 - ERROR - Error fetching category for ISBN 344244568X: 503 Server Error: Service Unavailable for url: https://www.googleapis.com/books/v1/volumes?q=isbn:344244568X
+2024-08-23 19:39:54,438 - WARNING - Retry 1 for ISBN 344244568X
+2024-08-23 19:40:01,286 - ERROR - Error fetching category for ISBN 3518392700: 503 Server Error: Service Unavailable for url: https://www.googleapis.com/books/v1/volumes?q=isbn:3518392700
+2024-08-23 19:40:01,288 - WARNING - Retry 1 for ISBN 3518392700
+2024-08-23 19:40:05,313 - INFO - Processed row 227025: ISBN 3423123974, Category German poetry
+2024-08-23 19:40:05,313 - INFO - Processed 100 rows.
+2024-08-23 19:40:08,889 - ERROR - Error fetching category for ISBN 0877851395: 503 Server Error: Service Unavailable for url: https://www.googleapis.com/books/v1/volumes?q=isbn:0877851395
+2024-08-23 19:40:08,890 - WARNING - Retry 1 for ISBN 0877851395
+2024-08-23 19:40:15,557 - ERROR - Error fetching category for ISBN 342320043X: 503 Server Error: Service Unavailable for url: https://www.googleapis.com/books/v1/volumes?q=isbn:342320043X
+2024-08-23 19:40:15,558 - WARNING - Retry 1 for ISBN 342320043X
+2024-08-23 19:40:22,249 - ERROR - Error fetching category for ISBN 0373114427: 503 Server Error: Service Unavailable for url: https://www.googleapis.com/books/v1/volumes?q=isbn:0373114427
+2024-08-23 19:40:22,250 - WARNING - Retry 1 for ISBN 0373114427
+2024-08-23 19:40:25,525 - INFO - CSV processing completed. Total rows processed: 115
+2024-08-23 19:47:58,532 - INFO - Starting CSV processing. Input: C:/Users/jraso/Desktop/Project/Recom_book/BooksFiltered.csv, Output: genre.csv, Start Row: 226924, End Row: 227040
+2024-08-23 19:48:03,548 - ERROR - Error fetching category for ISBN 0373270895: 503 Server Error: Service Unavailable for url: https://www.googleapis.com/books/v1/volumes?q=isbn:0373270895
+2024-08-23 19:48:03,549 - WARNING - Retry 1 for ISBN 0373270895
+2024-08-23 19:48:10,782 - ERROR - Error fetching category for ISBN 0373301073: 503 Server Error: Service Unavailable for url: https://www.googleapis.com/books/v1/volumes?q=isbn:0373301073
+2024-08-23 19:48:10,783 - WARNING - Retry 1 for ISBN 0373301073
+2024-08-23 19:48:12,491 - ERROR - Error fetching category for ISBN 0373301073: 503 Server Error: Service Unavailable for url: https://www.googleapis.com/books/v1/volumes?q=isbn:0373301073
+2024-08-23 19:48:12,493 - WARNING - Retry 2 for ISBN 0373301073
+2024-08-23 19:48:14,203 - ERROR - Error fetching category for ISBN 0373301073: 503 Server Error: Service Unavailable for url: https://www.googleapis.com/books/v1/volumes?q=isbn:0373301073
+2024-08-23 19:48:14,208 - WARNING - Retry 3 for ISBN 0373301073
+2024-08-23 19:48:15,209 - ERROR - Failed to fetch category for ISBN 0373301073 after 3 attempts.
+2024-08-23 19:48:16,927 - ERROR - Error fetching category for ISBN 3423127406: 503 Server Error: Service Unavailable for url: https://www.googleapis.com/books/v1/volumes?q=isbn:3423127406
+2024-08-23 19:48:16,928 - WARNING - Retry 1 for ISBN 3423127406
